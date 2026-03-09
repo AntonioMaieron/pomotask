@@ -16,11 +16,19 @@ pip install -r requirements.txt
 
 ## Uso
 
+**Interface gráfica (recomendado):**
+
+```bash
+python gui.py
+```
+
+**Interface no terminal:**
+
 ```bash
 python main.py
 ```
 
-No menu você pode:
+Na interface gráfica você pode ver e gerenciar tarefas, iniciar o Pomodoro (selecione uma tarefa e clique em "Iniciar Pomodoro"), cancelar o timer e abrir Configurações. No terminal, no menu você pode:
 
 1. **Ver tarefas** – Lista tarefas com ID, nome, pomodoros feitos/estimados, prioridade e notas.
 2. **Adicionar tarefa** – Cria tarefa com nome, pomodoros estimados, prioridade e notas.
@@ -45,6 +53,7 @@ Tudo isso pode ser alterado em **Configurações** no menu. Os dados são gravad
 
 ```
 pomotask/
+├── gui.py       # Interface gráfica (tkinter)
 ├── main.py      # Entrada e menu CLI
 ├── pomodoro.py  # Timer e duração dos intervalos
 ├── tasks.py     # CRUD de tarefas
