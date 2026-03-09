@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1",
+    "name": "comer",
+    "estimated_pomodoros": 1,
+    "completed_pomodoros": 0,
+    "priority": 1,
+    "notes": "ao mosso",
+    "created_at": "2026-03-09T10:58:20.573467",
+    "completed": false
+  }
+]
